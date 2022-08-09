@@ -10,40 +10,51 @@ body {
 
 .Sidebar {
     height: 100vw;
-    width: 200px;
-    background-color: #323e57;
+    width: 220px;
+    background-color: #2F4050;
 }
 
 .SidebarList {
     height: auto;
+    margin: 0;
     padding: 0;
     width: 100%;
+    font-size: 13px;
 }
 
 .SidebarList .row {
     width: 100%;
-    height: 50px;
+    height: 47px;
+    padding: 14px 20px 14px 25px;
+    box-sizing: border-box;
     list-style-type: none;
     margin: 0%;
     display: flex;
     flex-direction: row;
-    color: white;
+    color: #a6b0c1;
     justify-content: center;
     align-items: center;
-    font-family: "Trebuchet MS";
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .SidebarList .row:hover {
+    box-sizing: border-box;
     cursor: pointer;
-    background-color: #343257;
+    background: rgb(41, 56, 70);
+    color: white;
 }
 
-.row #icon {
-    flex: 30%;
+.SidebarList .row #icon {
+    font-size: 13px;
+    margin-right: 6px;
     display: grid;
     place-items: center;
 }
 
 .row #title {
     flex: 70%;
+}
+
+.NavBarHeader {
+    height: 66px;
 }
