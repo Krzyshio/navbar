@@ -58,3 +58,7 @@ body {
 .NavBarHeader {
     height: 66px;
 }
+
+.SidebarList #active {
+    background: rgb(41, 56, 70);
+}

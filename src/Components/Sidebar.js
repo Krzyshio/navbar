@@ -11,7 +11,11 @@ function Sidebar() {
         <ul className="SidebarList">
             {SidebarDat.map((val, key) => {
                 return (
-                    <li key={key} className="row" onClick={() => {
+                    <li
+                        key={key}
+                        className="row"
+                        id={window.location.pathname === val.link  ? "active" : ""}
+                        onClick={() => {
                         window.location.pathname = val.link
                     }}>
                         <div id="icon">{val.icon}</div>

@@ -10,11 +10,11 @@ export const SidebarDat = [
     {
         title: "Slave #1",
         icon: <LanIcon style={{ height: '13px', width: '13px' }} />,
-        link: "/home"
+        link: "/1"
     },
     {
         title: "Slave #2",
         icon: <LanIcon style={{ height: '13px', width: '13px' }} />,
-        link: "/home"
+        link: "/2"
     }
 ]
